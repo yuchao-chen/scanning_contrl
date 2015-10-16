@@ -7,8 +7,11 @@
 namespace ic {
 	class DevContrl {
 	public:
+		DevContrl();
+		~DevContrl();
 		QStringList available_ports();
-		QSerialPort serialport_;
+	private:
+		QSerialPort serial_port_;
 	};
 }
 #endif
