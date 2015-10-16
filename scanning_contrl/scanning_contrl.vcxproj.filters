@@ -50,6 +50,9 @@
     <ClCompile Include="GeneratedFiles\qrc_scanning_contrl.cpp">
       <Filter>Generated Files</Filter>
     </ClCompile>
+    <ClCompile Include="dev_contrl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="scanning_contrl.h">
@@ -65,6 +68,9 @@
   <ItemGroup>
     <ClInclude Include="GeneratedFiles\ui_scanning_contrl.h">
       <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dev_contrl.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

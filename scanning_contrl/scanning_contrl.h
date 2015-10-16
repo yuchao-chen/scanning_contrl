@@ -3,17 +3,17 @@
 
 #include <QtWidgets/QMainWindow>
 #include "ui_scanning_contrl.h"
+#include "dev_contrl.h"
+namespace ic {
+	class ScanningContrl : public QMainWindow {
+		Q_OBJECT
+	public:
+		ScanningContrl(QWidget *parent = 0);
+		~ScanningContrl();
 
-class ScanningContrl : public QMainWindow
-{
-	Q_OBJECT
-
-public:
-	ScanningContrl(QWidget *parent = 0);
-	~ScanningContrl();
-
-private:
-	Ui::ScanningContrlClass ui;
-};
-
+	private:
+		Ui::ScanningContrlClass ui;
+		ic::DevContrl dev_;
+	};
+}
 #endif // SCANNING_CONTRL_H
