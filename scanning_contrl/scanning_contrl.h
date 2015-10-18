@@ -12,8 +12,10 @@ namespace ic {
 		~ScanningContrl();
 
 	private:
+		void UpdateGUI();
 		Ui::ScanningContrlClass ui;
 		ic::DevContrl dev_;
+
 	};
 }
 #endif // SCANNING_CONTRL_H

@@ -53,6 +53,15 @@
     <ClCompile Include="dev_contrl.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="attribute_table.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_dev_contrl.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_dev_contrl.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="scanning_contrl.h">
@@ -64,12 +73,15 @@
     <CustomBuild Include="scanning_contrl.qrc">
       <Filter>Resource Files</Filter>
     </CustomBuild>
+    <CustomBuild Include="dev_contrl.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="GeneratedFiles\ui_scanning_contrl.h">
       <Filter>Generated Files</Filter>
     </ClInclude>
-    <ClInclude Include="dev_contrl.h">
+    <ClInclude Include="attribute_table.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
